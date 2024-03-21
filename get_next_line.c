@@ -6,7 +6,7 @@
 /*   By: shmohamm <shmohamm@student.42abudhabi.a    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/08/01 09:54:27 by shmohamm          #+#    #+#             */
-/*   Updated: 2023/08/13 12:06:15 by shmohamm         ###   ########.fr       */
+/*   Updated: 2024/03/21 11:08:02 by shmohamm         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -102,19 +102,3 @@ char	*get_next_line(int fd)
 	str = del_line(str);
 	return (line);
 }
-
-// int	main(void)
-// {
-// 	int		fd;
-// 	char	*line;
-
-// 	fd = open("how.txt", O_RDONLY);
-// 	// line = get_next_line(fd);
-// 	while ((line = get_next_line(fd)) != NULL)
-// 	{
-// 		printf("%s\n", line);
-// 		free(line);
-// 	}
-// 	close(fd);
-// 	return (0);
-// }
